@@ -1,6 +1,7 @@
+numpy
 pandas
-requests
+scikit-learn
+tensorflow
+keras
 matplotlib
 seaborn
-jupyter
-pytest

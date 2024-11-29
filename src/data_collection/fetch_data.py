@@ -31,7 +31,7 @@ for exchange, pairs in symbol_mapping.items():
         df = fetch_function(symbol=pair)
 
         # Thư mục lưu dữ liệu
-        save_dir = f"../../data/raw/{exchange.lower()}"
+        save_dir = f"../../data/new_data/raw/{exchange.lower()}"
 
         # Tạo thư mục nếu chưa tồn tại
         os.makedirs(save_dir, exist_ok=True)
